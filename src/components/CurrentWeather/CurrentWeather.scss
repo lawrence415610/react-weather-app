@@ -1,0 +1,20 @@
+.weathernow {
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: flex-end;
+    &__icon {
+        &::before {
+            font-size: 128px;
+            color:#45318f;
+        }
+    }
+    &__temp{
+        font-weight: bold;
+        font-size: 40px;
+    }
+    &__loc {
+        font-weight: bold;
+    }
+}
