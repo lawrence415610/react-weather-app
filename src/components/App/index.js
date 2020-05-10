@@ -18,8 +18,11 @@ import './animate.css'
 
 import './App.css'
 
-const WEATHER_API_KEY = process.env.REACT_APP_WEATHER;
-const PHOTO_API_KEY = process.env.REACT_APP_PHOTO;
+// const WEATHER_API_KEY = process.env.REACT_APheP_WEATHER;
+// const PHOTO_API_KEY = process.env.REACT_APP_PHOTO;
+
+const WEATHER_API_KEY = '00965fbce87634bc3846d2fdf523bc07'
+const PHOTO_API_KEY = 'GwR354sfHYvnedY2xuCWcZOjT1leWGjGwJX7ImBAwlw'
 
 function getIconAndRecommendation(id) {
     const prefix = "wi wi-";
